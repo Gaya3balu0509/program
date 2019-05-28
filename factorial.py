@@ -1,5 +1,5 @@
 num=int(input())
-n=1
-for i in range(1,num+1):
-  n=n*i
-print(n)
+n1=1
+for a in range(1,num+1):
+  n1=n1*a
+print(n1)
