@@ -1,9 +1,9 @@
 num=int(input())
-c=0
-for i in range(0,num+1):
-  if i%num==0:
-    c=c+1
-if c==2:
+ct=0
+for i in range(1,num+1):
+  if num%i==0:
+    ct=ct+1
+if ct==2:
   print("yes")
 else:
   print("no")
