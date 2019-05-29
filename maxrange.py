@@ -1,3 +1,3 @@
 num=int(input())
-lst=list(map(int,input().split()))
-print(max(lst))
+lst1=list(map(int,input().split()))
+print(max(lst1))
