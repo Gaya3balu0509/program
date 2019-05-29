@@ -1,7 +1,7 @@
 num=int(input())
-if num%4:
-  if num%100:
-    if num%400:
+if num%4==0:
+  if num%100==0:
+    if num%400==0:
       print("yes")
     else:
       print("no")
