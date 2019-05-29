@@ -1,7 +1,7 @@
-num=int(input())
-if num%4==0:
-  if num%100==0:
-    if num%400==0:
+yr=int(input())
+if yr%4==0:
+  if yr%100==0:
+    if yr%400==0:
       print("yes")
     else:
       print("no")
