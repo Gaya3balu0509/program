@@ -1,3 +1,3 @@
-num1=int(input())
-for i in range(1,6):
-    print(i*num1,end=" ")
+dg=int(input())
+for x in range(1,6):
+    print(x*dg,end=" ")
