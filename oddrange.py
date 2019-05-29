@@ -1,4 +1,4 @@
-a,b=input().split()
-for i in range(int(a)+1,int(b)):
-  if i%2!=0:
-    print(i,end=" ")
+lst=list(map(int,input().split()))
+for x in range(lst[0]+1,lst[1]):
+  if x%2!=0:
+    print(x,end=" ")
