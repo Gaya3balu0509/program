@@ -5,4 +5,5 @@ if time<60:
 else:
     hr=time//60
     time=time%60
-    print(hr,time)
+    print(hr,end=" ")
+    print(time)
