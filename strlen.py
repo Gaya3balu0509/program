@@ -1,8 +1,6 @@
 a=input()
-c=0
+cnt=0
 for i in a:
-    if i==" ":
-        pass
-    else:
-        c=c+1
-print(c)
+    if i!=" ":
+        cnt=cnt+1
+print(cnt)
