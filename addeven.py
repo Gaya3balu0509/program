@@ -1,5 +1,5 @@
-num1,num2=map(int,input().split())
-if (num1+num2)%2==0:
+nu1,nu2=map(int,input().split())
+if (nu1+nu2)%2==0:
     print("even")
 else:
     print("odd")
