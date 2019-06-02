@@ -5,5 +5,5 @@ if len(str1)%2==0:
     str1[val-1]="*"
 else:
     str1[val]="*"
-for i in str1:
-    print(i,end="")
+for x in str1:
+    print(x,end="")
