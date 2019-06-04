@@ -1,9 +1,9 @@
-num1=int(input())
+num=int(input())
 x,y=1,0
-while(x<num1):
+while(x<num):
   y+=1
   x=2**y
-if(x==num1):
+if(x==num):
   print("yes")
 else:
   print("no")
