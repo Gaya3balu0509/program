@@ -1,4 +1,4 @@
-num=int(input())
-lst1=list(map(int,input().split()))
-lst1.sort()
-print(*lst1)
+nu=int(input())
+lst=list(map(int,input().split()))
+lst.sort()
+print(*lst)
