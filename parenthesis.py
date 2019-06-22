@@ -1,6 +1,6 @@
-list1=input()
+inp1=input()
 o,c=0,0
-for i in list1:
+for i in inp1:
     if i=='(':
         o+=1
     elif i==')':
