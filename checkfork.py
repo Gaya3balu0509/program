@@ -5,6 +5,6 @@ for i in list1:
     if i==int(inp2):
         c=1
 if c==1:    
-     print("yes")
+     print("Yes")
 else:
-    print("no")
+    print("No")
