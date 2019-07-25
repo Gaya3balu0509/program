@@ -5,5 +5,9 @@ for i in l1:
     if l1.count(i)>1:
         if i not in l3:
             l3.append(i)
-l3.sort()
-print(*l3,end=' ')
+if len(l3)==0:
+    print("unique")
+else:
+
+    l3.sort()
+    print(*l3,end=' ')
